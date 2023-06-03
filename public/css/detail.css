@@ -1,0 +1,162 @@
+
+.detail{
+    padding-top: 110px;
+}
+.hr {
+    border: none;
+    display: block;
+    height: 2px;
+    margin: 1.5rem 0;
+}
+
+.h1 {
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    color: #0a263c;
+    display: -webkit-box;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    margin: 0 10px 0 0;
+    overflow: hidden;
+}
+
+.cps-block-content {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .1), 0 2px 6px 2px rgba(60, 64, 67, .15);
+    display: block;
+    margin-bottom: 15px;
+    margin-right: auto;
+    max-height: 500px;
+    min-height: 0;
+    overflow: hidden;
+    padding: 15px;
+    position: relative;
+    text-align: justify;
+    width: 100%;
+}
+
+.cps-block-content .ksp-content {
+    background-color: #f2f2f2;
+    border-radius: 0.5rem;
+    margin: auto;
+    width: 100%;
+}
+
+.cps-block-content .ksp-content .ksp-title {
+    color: #d70018;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.has-text-centered {
+    text-align: center !important;
+}
+
+.technicalInfo {
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .1), 0 2px 6px 2px rgba(60, 64, 67, .15);
+    max-width: 370px;
+}
+
+.box-product-promotion {
+    border: 1px solid #fee2e2;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.box-product-promotion-header {
+    background-color: #fee2e2;
+    color: #d70018;
+    gap: 10px;
+    height: 42px;
+}
+
+.box-product-promotion-header .icon {
+    fill: #d70018;
+    width: 20px;
+}
+
+.box-product-promotion-header .icon svg {
+    height: 30px;
+}
+.box-product-promotion-content .box-product-promotion-number {
+    border-radius: 50%;
+    font-size: 10px;
+    font-weight: 600;
+    height: 15px;
+    text-align: center;
+    width: 15px;
+}
+.has-background-danger-dark {
+    background-color: #cc0f35!important;
+}
+.has-text-primary-light {
+    color: #ebfffc!important;
+}
+.has-text-black {
+    color: #0a0a0a!important;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+}
+.mx-1 {
+    margin-right: 0.25rem!important;
+}
+.ml-1, .mx-1 {
+    margin-left: 0.25rem!important;
+}
+.box-product-promotion-content .box-product-promotion-detail {
+    font-size: 14px;
+    width: calc(100% - 25px);
+}
+.btn-timeOrder{
+    background: linear-gradient(#f52f32,#e11b1e);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    flex-direction: column;
+    height: 60px;
+    margin-bottom: 10px;
+    outline: none;
+    padding-bottom: 10px;
+    width: calc(100% - 70px);
+    padding: 10px;
+}
+.btn-timeOrder{
+    font-size: 7px;
+    text-align: center;
+}
+
+.carousel-indicators .active{
+    width: 30px;
+    height: 3px;
+}
+
+.btn-toolbar{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.btnPrice{
+    height: 45px;
+}
+
+.imgDetail{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+.btnCar{
+    width: 70px;
+    margin-top: 10px;
+     margin-left: 20px;
+     height: 60px;
+     border:#cc0f35 1px solid;
+}
+
+.iCar{
+    color: #cc0f35;
+}

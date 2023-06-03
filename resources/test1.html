@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Danh sách đơn hàng</title>
+    <style>
+    table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 8px 16px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+td:first-child {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+td:last-child {
+  font-weight: bold;
+  color: #f44336;
+}
+
+.status-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.status-button:hover {
+  background-color: #3e8e41;
+}
+    </style>
+  </head>
+  <body>
+    <h1>Danh sách đơn hàng</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Mã đơn hàng</th>
+          <th>Ngày đặt hàng</th>
+          <th>Khách hàng</th>
+          <th>Số tiền</th>
+          <th>Tình trạng</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>#DH001</td>
+          <td>20/05/2023</td>
+          <td>Nguyễn Văn A</td>
+          <td>1.500.000đ</td>
+          <td><button class="status-button">Đang giao hàng</button></td>
+          <td><button class="detail-button">Chi tiết</button></td>
+        </tr>
+        <tr>
+          <td>#DH002</td>
+          <td>21/05/2023</td>
+          <td>Trần Thị B</td>
+          <td>2.000.000đ</td>
+          <td><button class="status-button">Đã giao hàng</button></td> <td><button
+              class="detail-button">Chi tiết</button></td>
+        </tr>
+        <tr>
+          <td>#DH003</td>
+          <td>22/05/2023</td>
+          <td>Phạm Văn C</td>
+          <td>3.500.000đ</td>
+          <td><button class="status-button">Đã hủy</button></td>
+          <td><button class="detail-button">Chi tiết</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

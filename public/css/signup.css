@@ -1,0 +1,155 @@
+.container .box{
+    height: 620px;
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: #fff;
+    padding: 25px 25px 45px 25px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(226, 92, 30, 0.5);
+    margin-top: 30px;
+}
+.tittle-log{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+    position: relative;
+}
+h2::before{
+    position: absolute;
+    content: '';
+    width: 55px;
+    height: 5px;
+    border-radius: 50px;
+    background: linear-gradient(45deg , #f12711 , #f5af19);
+    bottom: -8px;
+}
+
+.box .signup_button{
+
+    width: 100%;
+    background: linear-gradient(45deg , #f12711 , #f5af19);
+    border: none;
+    box-shadow: 0px 0px 10px rgba(226, 92, 30, 0.5);
+    font-size: 25px;
+
+    cursor: pointer;
+    border-radius: 50px;
+    transition: 0.2s;
+  
+}
+.box .signup_button:active{
+    transform: scale3d(0.9,0.9,0.9);
+}
+.box .login_link{
+    font-size: 15px;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+.box .login_link a{
+    color: #eb0e0e;
+    text-decoration: none;
+}
+
+
+.back-login{
+    text-align: left;
+    font-size: 25px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+
+/* register */
+.letter {
+
+    margin-top: 20px;
+    left: 41%;
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 10px;
+    line-height: 1.2;
+    color: #535353;
+  }
+  
+  .letter::before,
+  .letter::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    height: 3px;
+    background-color: rgb(206, 200, 200);
+  }
+  
+  .letter::before {
+    left: -160px;
+    width: 160px;
+  }
+  
+  .letter::after {
+    right: -160px;
+    width: 160px;
+  }
+
+  @import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+
+
+
+.inputbox {
+  position: relative;
+
+  height: 35px;
+  margin-bottom: 30px;
+}
+.inputbox input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: 2px solid rgba(226, 92, 30, 0.5);
+  outline: none;
+  background: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 10px rgba(226, 92, 30, 0.5);
+}
+.inputbox:last-child {
+  margin-bottom: 0;
+}
+.inputbox .textinput {
+ 
+  position: absolute;
+  top: 16px;
+  left: 20px;
+  font-size: 1em;
+  transition: 0.3s;
+  font-family: sans-serif;
+}
+.inputbox input:focus ~ .textinput,
+.inputbox input:valid ~ .textinput {
+  transform: translateX(-13px) translateY(-35px);
+  font-size: 1em;
+  color: #b9b9b9;
+}
+.inputbox [type="button"] {
+  width: 50%;
+  background: dodgerblue;
+  color: #fff;
+  border: #fff;
+}
+.inputbox:hover [type="button"] {
+  background: linear-gradient(45deg, greenyellow, dodgerblue);
+}
+
+.textdanger{
+  color: red;
+  position: absolute;
+  top: 80%;
+  left: 1%;
+}
