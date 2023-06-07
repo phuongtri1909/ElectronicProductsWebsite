@@ -1,2 +1,0 @@
-
-<?php echo $__env->make('layouts.about', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH E:\DoAnBe2\resources\views/products/admin2.blade.php ENDPATH**/ ?>
